@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="layout.css">
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- start of navbar -->
+    <div class="row bg-dark">
+        <div class="col-sm-12 col-md-3 text-center fs-3 py-3">
+            <a class="navbar-brand text-color" href="index.html">ourStore</a>
+        </div>
+        <div class="col-sm-12 col-md-6 mt-3">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-warning text-color" type="submit">Search</button>
+            </form>
+
+        </div>
+        <div class="col-sm-12 col-md-3 fs-3 d-flex justify-content-evenly mt-2">
+            <a href="register.html"><i class="bi bi-person-plus-fill text-color"></i></a>
+            <a href="login.html"><i class="bi bi-box-arrow-in-right text-color"></i></a>
+            <a href="cart.html"><i class="bi bi-cart text-color"></i></a>
+
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-secondary text-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler text-color bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link active text-color" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="blogs.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- start of main content -->
+    <!-- start of table -->
+    <div class="container mx-auto shadow-lg p-5 mt-5">
+        <table class="table table-bordered text-center table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Proudct Image</th>
+                    <th>Price</th>
+                    <th>Product Details</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img src="mobile_img/img3.jpg" alt="Product Image" width="200px">
+                    </td>
+                    <td>Rs.30,000</td>
+                    <td>
+                        <h3>Real Me</h3>
+                        <p>30mp camera, 6GB Ram, octacore processor</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary">Update</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <img src="mobile_img/img2.jpg" alt="Product Image" width="200px">
+                    </td>
+                    <td>Rs.30,000</td>
+                    <td>
+                        <h3>Real Me</h3>
+                        <p>30mp camera, 6GB Ram, octacore processor</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary">Update</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <img src="mobile_img/img1.jpg" alt="Product Image" width="200px">
+                    </td>
+                    <td>Rs.30,000</td>
+                    <td>
+                        <h3>Real Me</h3>
+                        <p>30mp camera, 6GB Ram, octacore processor</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary">Update</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <img src="mobile_img/img2.jpg" alt="Product Image" width="200px">
+                    </td>
+                    <td>Rs.30,000</td>
+                    <td>
+                        <h3>Real Me</h3>
+                        <p>30mp camera, 6GB Ram, octacore processor</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary">Update</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <img src="mobile_img/img2.jpg" alt="Product Image" width="200px">
+                    </td>
+                    <td>Rs.30,000</td>
+                    <td>
+                        <h3>Real Me</h3>
+                        <p>30mp camera, 6GB Ram, octacore processor</p>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary">Update</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- end of table -->
+
+    <!-- end of main content-->
+
+    <!-- start of footer -->
+    <div class="container-fluid mx-auto">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="product.html" class="nav-link px-2 text-muted">Products</a></li>
+                <li class="nav-item"><a href="blogs.html" class="nav-link px-2 text-muted">Blogs</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+        </footer>
+    </div>
+    <!-- end of footer -->
+
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

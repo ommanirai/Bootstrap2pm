@@ -1,0 +1,41 @@
+*{
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.text-color{
+    color: white !important;
+}
+.carousel-item, .carousel-inner{
+    height: 450px;
+}
+
+.custom-card-img{
+    height: 200px;
+    transition: 3s;
+}
+.custom-card-img:hover{
+    transform: scale(1.5);
+}
+.card-img-container{
+    overflow: hidden;
+}
+.custom-bg{
+    background-color:silver;
+}
+.custom-remember-me{
+    float: left;
+}
+
+.custom-form{
+    position: relative;
+}
+.custom-icon{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.blogger-img{
+    background-color: blue;
+    border-radius: 50%;
+}
